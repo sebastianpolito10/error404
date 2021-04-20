@@ -1,0 +1,98 @@
+*{ 
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    font-family: 'Arial', sans-serif;
+}
+
+.contenedor{
+width: 100%;
+}
+
+.tenis{
+background-image: url("../img/tenis.jpg");
+width: 100vw;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.titulo{
+position: absolute;
+top: 23%;
+left: 25%;
+}
+
+h1{
+font-size: 50px;	
+}
+
+.error404{
+position: absolute;
+top: 40%;
+left: 40%;
+font-size: 30px;
+background-color: #ffffff;
+border: 60px;
+border-radius: 10px;
+padding: 10px;
+}
+
+.boton{
+font-size: 29px;
+position: absolute;
+top: 60%;
+left: 42%;
+font-weight: bold;
+background-color: #08a6c9;
+text-decoration: none;
+width: 10%;
+padding: 20px;
+text-align: center;
+}
+
+.boton:hover{
+color: #5186e8;
+background-color: #ffffff;
+transform: scale(1.15);
+transition: 1.5s;
+}
+
+.pelota{
+position: absolute;
+top: 77%;
+left: 4%;
+right: 6%;
+}
+
+.pelota img{
+width: 8%;
+animation-name: pelota1;
+animation-duration: 6s;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+}
+
+.info{
+position: absolute;
+top: 95%;
+left: 17%;
+font-size: 20px;
+background-color: #ffffff;
+padding: 10px;
+}
+
+@keyframes	pelota1{
+0% {}
+50% {transform: translateX(1250px) rotate(2turn);
+100%{}	
+}	
+
+
+
+
+
+
+{}
